@@ -1,0 +1,52 @@
+#nav {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+#nav li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#nav a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb( 218 , 218 , 218 );
+}
+.avant-propos{
+    border-left: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-right: 450px;
+    padding: 50px;
+}
+.pose-dieu{
+    text-align: right;
+    margin-top: -180px;
+    margin-left: 80%;
+    position: absolute;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center  ;
+}

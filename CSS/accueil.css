@@ -1,0 +1,9 @@
+.bienvenue{
+    background-color: rgb(205, 204, 204);
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.5em;
+    margin: 20px;
+    padding: 20px;
+}
