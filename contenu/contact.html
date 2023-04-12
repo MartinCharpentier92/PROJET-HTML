@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
     <header>
         <!-- Logo ou image  -->
-        <nav>
+        <nav id="nav">
             <ul>
                 <li><a href="../accueil.html">Accueil</a></li>
                 <li><a href="/contenu/objectifs.html">Objectifs</a></li>
@@ -23,24 +28,25 @@
             </ul>
         </nav>
     </header>    
-    
+
+    <h1>Formulaire de contact</h1>
     <main class="formulaire">
         <form action="" method="post">
             <div>
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="user_name">
+                <label for="name"></label>
+                <input type="text" id="name" name="user_name" placeholder="Entrez votre nom :">
             </div>
             <div>
-                <label for="username">Prénom :</label>
-                <input type="text" name="username" id="user_username">
+                <label for="username"></label>
+                <input type="text" name="username" id="user_username" placeholder="Entrez votre prénom">
             </div>
             <div>
-                <label for="mail">E-mail&nbsp;:</label>
-                <input type="email" id="mail" name="user_mail">
+                <label for="mail"></label>
+                <input type="email" id="mail" name="user_mail" placeholder="E-mail&nbsp;:">
             </div>
             <div>
-                <label for="msg">Message :</label>
-                <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+                <label for="msg"></label>
+                <textarea name="user_message" id="msg" cols="30" rows="10" placeholder="Message :"></textarea>
             </div>
         </form>
     </main>
