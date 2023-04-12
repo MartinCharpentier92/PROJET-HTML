@@ -1,0 +1,17 @@
+.formulaire{
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    border: solid 2px black;
+    border: 10% ;
+    width: 30%;
+    
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 3%;
+}
+input{
+    border-radius: 10px;
+}
